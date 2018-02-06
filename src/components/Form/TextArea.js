@@ -10,6 +10,7 @@ const StyledTextArea = styled.textarea`
   width: 100%;
   display: block;
   font-family: inherit;
+  font-weight: 300;
   font-size: 1em;
   color: ${black};
   border: 2px solid transparent;

@@ -5,6 +5,7 @@ const Submit = styled.button`
   background-image: linear-gradient(-196deg, #37AEE2 6%, #1E96C8 93%);
   border-radius: 40px;
   font-size: 18px;
+  font-weight: 300;
   color: #FFFFFF;
   margin: 0 auto;
   max-width: 150px;

@@ -63,7 +63,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: '[name].[ext]',
+              name: '[path][name].[ext]',
               outputPath: './assets/media/'
             }
           }
@@ -88,6 +88,7 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     /* html-webpack-plugin instantiation */
     new HtmlWebpackPlugin({
+      favicon: './assets/media/telegram-logo.png',
       template: 'index.html'
     }),
     extractPlugin

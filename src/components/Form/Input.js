@@ -11,6 +11,7 @@ const StyledInput = styled.input`
   display: block;
   font-family: inherit;
   font-size: 1em;
+  font-weight: 300;
   color: ${black};
   border: 2px solid transparent;
   box-shadow: 0 1px 2px rgba(0,0,0,0.1);
